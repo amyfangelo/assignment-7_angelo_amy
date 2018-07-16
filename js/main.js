@@ -1,4 +1,8 @@
 $(document).ready(function() {
-var headings = $('h2:last');
-headings.append(' I am Amy Angelo, and I am learning jQuery!');
+var paragraphs = $('p');
+paragraphs.css({
+  'font-size': '1.3rem',
+  'color': '#262626',
+  'background-color': 'pink'
+});
 });
