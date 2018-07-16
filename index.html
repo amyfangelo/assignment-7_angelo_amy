@@ -18,7 +18,7 @@
 
  <p>When we describe flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. This can be contrasted with the two-dimensional model of <a href="/en-US/docs/Web/CSS/CSS_Grid_Layout">CSS Grid Layout</a>, which controls columns and rows together.</p>
 
- <h2 id="The_two_axes_of_flexbox">The two axes of flexbox</h2>
+ <h2>The two axes of flexbox</h2>
 
  <p>When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the <a href="/en-US/docs/Web/CSS/flex-direction" title="The flex-direction CSS property specifies how flex items are placed in the flex container defining the main axis and the direction (normal or reversed)."><code>flex-direction</code></a> property, and the cross axis runs perpendicular to it. Everything we do with flexbox refers back to these axes, so it is worth understanding how they work from the outset.</p>
 
@@ -47,7 +47,7 @@
 
  <p>Understanding which axis is which is important when we start to look at aligning and justifying flex items; flexbox features properties that align and justify content along one axis or the other.</p>
 
- <h2 id="Start_and_end_lines">Start and end lines</h2>
+ <h2>Start and end lines</h2>
 
  <p>Another vital area of understanding is how flexbox makes no assumption about the writing mode of the document. In the past, CSS was heavily weighted towards horizontal and left-to-right writing modes. Modern layout methods encompass the range of writing modes and so we no longer assume that a line of text will start at the top left of a document and run towards the right hand side, with new lines appearing one under the other.</p>
 
@@ -62,7 +62,7 @@
 
  <p>After a while, thinking about start and end rather than left and right becomes natural, and will be useful to you when dealing with other layout methods such as CSS Grid Layout which follow the same patterns.</p>
 
- <h2 id="The_flex_container">The flex container</h2>
+ <h2>The flex container</h2>
 
  <p>An area of a document laid out using flexbox is called a <strong>flex container</strong>. To create a flex container, we set the value of the area's container's <a href="/en-US/docs/Web/CSS/display" title="The display CSS property specifies the type of rendering box used for an element. In HTML, default display property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet. The default value in XML is inline, including SVG elements."><code>display</code></a> property to <code>flex</code> or <code>inline-flex</code>. As soon as we do this the direct children of that container become <strong>flex items</strong>. As with all properties in CSS, some initial values are defined, so when creating a flex container all of the contained flex items will behave in the following way.</p>
 
@@ -91,7 +91,7 @@
 
  <p><iframe src="https://mdn.github.io/css-examples/flexbox/basics/flex-direction.html" class="live-sample-frame" width="100%" frameborder="0" height="350"></iframe></p>
 
- <h2 id="Multi-line_flex_containers_with_flex-wrap">Multi-line flex containers with flex-wrap</h2>
+ <h2>Multi-line flex containers with flex-wrap</h2>
 
  <p>While flexbox is a one dimensional model, it is possible to cause our flex items to wrap onto multiple lines. In doing so, you should consider each line as a new flex container. Any space distribution will happen across that line, without reference to the lines either side.</p>
 
@@ -101,7 +101,7 @@
 
  <p>Find out more about wrapping flex items in the guide <a href="/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items">Mastering Wrapping of Flex Items</a>.</p>
 
- <h2 id="The_flex-flow_shorthand">The flex-flow shorthand</h2>
+ <h2>The flex-flow shorthand</h2>
 
  <p>You can combine the two properties <code>flex-direction</code> and <code>flex-wrap</code> into the <a href="/en-US/docs/Web/CSS/flex-flow" title="The flex-flow CSS property is a shorthand property for flex-direction and flex-wrap individual properties."><code>flex-flow</code></a> shorthand. The first value specified is <code>flex-direction</code> and the second value is <code>flex-wrap</code>.</p>
 
@@ -109,7 +109,7 @@
 
  <p><iframe src="https://mdn.github.io/css-examples/flexbox/basics/flex-flow.html" class="live-sample-frame" width="100%" frameborder="0" height="400"></iframe></p>
 
- <h2 id="Properties_applied_to_flex_items">Properties applied to flex items</h2>
+ <h2>Properties applied to flex items</h2>
 
  <p>To have more control over flex items we can target them directly. We do this by way of three properties:</p>
 
@@ -180,7 +180,7 @@
 
  <p><iframe src="https://mdn.github.io/css-examples/flexbox/basics/flex-shorthands.html" class="live-sample-frame" width="100%" frameborder="0" height="510"></iframe></p>
 
- <h2 id="Alignment_justification_and_distribution_of_free_space_between_items">Alignment, justification and distribution of free space between items</h2>
+ <h2>Alignment, justification and distribution of free space between items</h2>
 
  <p>A key feature of flexbox is the ability to align and justify items on the main- and cross-axes, and to distribute space between flex items.</p>
 
@@ -222,13 +222,13 @@
 
  <p>In the article <a href="/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container">Aligning Items in a Flex Container</a> we will explore these properties in more depth, in order to have a better understanding of how they work. These simple examples however will be useful in the majority of use cases.</p>
 
- <h2 id="Next_steps">Next steps</h2>
+ <h2>Next steps</h2>
 
  <p>After reading this article you should have an understanding of the basic features of Flexbox. In the next article we will look at <a href="/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Relationship_of_Flexbox_to_Other_Layout_Methods">how this specification relates to other parts of CSS</a>.</p>
 
 
                </article>
-
+    <script src="js/3.3.1.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
