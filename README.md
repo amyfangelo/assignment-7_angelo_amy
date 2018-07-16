@@ -8,7 +8,7 @@
 `Downloaded jQuery into my document with this link`
 
 [merge master] (https://www.youtube.com/watch?v=lsLjxSkGSDE)
-`This video showed me step by step how to merge the jQuery branch intp the master branch`
+`This video showed me step by step how to merge the jQuery branch into the master branch`
 
 [append:last] (https://api.jquery.com/last/)
 `This resource taught me how to target the last h2 element in my ready function`
